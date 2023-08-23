@@ -1,0 +1,122 @@
+body
+{
+font-family: Verdana, Arial, Helvetica, sans-serif;
+background-color:whitesmoke;
+font-size:14px;
+}
+
+.container {
+width:100%;
+padding-right: 15px;
+padding-left: 15px;
+margin-right: auto;
+margin-left: auto;
+font-family: Verdana, Arial, Helvetica, sans-serif;
+
+ }	
+ 
+
+
+.title-accueil
+{
+	font-weight:bold;
+	font-style:italic; 
+	font-size:50px
+}
+
+.photo-dim
+{
+	width:700px;
+	height:500px;
+}
+
+.carousel-border{
+	border-radius:15px;	
+}
+
+.error, #pbPseudo, #pbPassword, #pbAgree{
+	color: red; 
+	font-weight:bold;
+
+}
+
+
+/* Styles du  label et de l'input */
+label {
+	position: relative;
+  }
+  
+  label input {
+	font-size: 1em;
+	/*color: #f9f9f9;*/
+	background: transparent;
+	padding: 1rem 1.2rem;
+	width: 250px;
+	border-radius: 5px;
+	border: 2px solid #7a7a7a;
+	transition: all 0.2s;
+  }
+  
+  nav ul a:hover{color:white;}
+  
+  
+  /* Style de l'input au focus  */
+  label input:focus {
+	border-color: #ff4754;
+  }
+  
+  /* styliser l'icône Afficher et Cacher */
+  label .password-icon {
+	display: flex;
+	align-items: center;
+	position: absolute;
+	top: 85%;
+	right: 20px;
+	transform: translateY(-50%);
+	width: 20px;
+	color: black;  
+	transition: all 0.2s;
+  }
+  
+  
+  .fa { /*Réglage de la hauteur de l'oeil*/
+	  padding-bottom:18px;
+  }
+
+  .styleInput{ /* Réglage de la longueur des inputs */
+	width: 20em;
+  }
+  /* Fin de stylisation de l'icône Afficher et Cacher*/
+
+  .whitestrong{
+	color:white;
+	font-weight:bold;
+  }
+
+  .list-inline-item a{
+	text-decoration:none;
+  }
+
+  /* configuration du footer en bas de la page  (body, html + bodyr + footer */
+
+html, body {
+	height: 100%;
+	margin: 0; padding: 0;
+}
+body {
+	display : table;
+	width: 100%;
+}
+footer {
+	display : table-row;
+	height: 7vh;
+}
+/*fin de  configuration du footer en bas de la page  */
+
+/* Centrage du bloc de pagination */
+.paginationCenter{   
+    position: absolute; /* postulat de départ */
+    left: 50%; /* à 50% du parent référent */
+    transform: translate(-50%); /* décalage de 50% de sa propre taille */
+    font-weight:bold;
+}
